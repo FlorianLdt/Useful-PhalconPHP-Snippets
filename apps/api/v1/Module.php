@@ -52,7 +52,7 @@ class Module implements ModuleDefinitionInterface
         $di->set('db', function () {
             return new Mysql(
                 [
-					"host"     => "some-mariadb",
+					"host"     => "mariadb",
 					"username" => "kuma",
 					"password" => "1234qwer",
 					"dbname"   => "kuma",
